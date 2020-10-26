@@ -1,8 +1,29 @@
 # CKA Notes
 Certified Kubernetes Administrator Notes
 
+- What is Kubernetes?
+  
+  > Kubernetes (k8s) is an open-source system for automating deployment, scaling, and management of containerized applications. (What is Kubernetes?, 2020)
+
+  It provides the following:
+  - Automated rollouts and rollbacks **incremental application version**
+  - Service discovery **pods association with services via labels and selectors**
+  - Load balancing **Even traffic distribution**
+  - Service topology
+  - Secret and configuration management ****
+  - Scaling
+  - Self-healing **keeps application state constant**
+  - Storage orchestration
+  - Automatic bin packing
+
+  And it doesn't:
+  - Host your source code and build your application
+  <!-- TO DO -->
+
 ## Cluster Architecture
 - Cluster installation via Kubeadm
+  - [Components]()
+  - Setup
 - RBAC
 - Highly available Kubernetes Cluster
 - Infrastructure provision
