@@ -22,7 +22,7 @@ Certified Kubernetes Administrator Notes
 
 ## Cluster Architecture
 - Cluster installation via Kubeadm
-  - [Components]()
+  - [Components](https://github.com/unjabulomajozi/cka/blob/master/Cluster%20Architecture/Cluster%20Installation%20via%20Kubeadm/Components.md)
   - Setup
 - RBAC
 - Highly available Kubernetes Cluster
