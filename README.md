@@ -55,3 +55,12 @@ Certified Kubernetes Administrator Notes
 - Application failure troubleshoot
 - Cluster component failure troubleshoot
 - Networking troubleshoot
+
+# References
+Kubernetes. 2020. What Is Kubernetes?. [online] Available at: <https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/> [Accessed 26 October 2020].
+
+Learnk8s. 2020. How Do You Rollback Deployments In Kubernetes?. [online] Available at: <https://learnk8s.io/kubernetes-rollbacks> [Accessed 26 October 2020].
+
+Learnk8s. 2020. Load Balancing And Scaling Long-Lived Connections In Kubernetes. [online] Available at: <https://learnk8s.io/kubernetes-long-lived-connections> [Accessed 26 October 2020].
+
+MSV, J., Omier, E. and Omier, E., 2020. How Does Service Discovery Work In Kubernetes? – The New Stack. [online] The New Stack. Available at: <https://thenewstack.io/how-does-service-discovery-work-in-kubernetes/> [Accessed 26 October 2020].
