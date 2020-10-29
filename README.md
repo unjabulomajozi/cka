@@ -32,7 +32,7 @@ Certified Kubernetes Administrator Notes
 - etd backup & restore
 ## Workloads & Scheduling
 - [Deployment, update & rollbacks](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20&amp;%20Scheduling/Deployment,%20update%20&amp;%20rollbacks.md)
-- [Configure applications ConfigMaps & Secrets](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20&amp;amp;%20Scheduling/Configure%20applications%20ConfigMaps%20&amp;%20Secrets.md)
+- [Configure applications ConfigMaps & Secrets](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20%26%20Scheduling/Configure%20applications%20ConfigMaps%20%26%20Secrets.md)
 - Scale Applications
 - Robust self-healing application deployments
 - Resources & Pod Scheduling
