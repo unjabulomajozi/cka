@@ -24,14 +24,15 @@ Certified Kubernetes Administrator Notes
 - Cluster installation via Kubeadm
   - [Components](https://github.com/unjabulomajozi/cka/blob/master/Cluster%20Architecture/Cluster%20Installation%20via%20Kubeadm/Components.md)
   - Setup
+- Kubernetes Object
 - RBAC
 - Highly available Kubernetes Cluster
 - Infrastructure provision
 - Cluster version upgrade via Kubeadm
 - etd backup & restore
 ## Workloads & Scheduling
-- Deployment, update & rollbacks
-- Configure applications ConfigMaps & Secrets
+- [Deployment, update & rollbacks](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20&amp;%20Scheduling/Deployment,%20update%20&amp;%20rollbacks.md)
+- [Configure applications ConfigMaps & Secrets](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20&amp;amp;%20Scheduling/Configure%20applications%20ConfigMaps%20&amp;%20Secrets.md)
 - Scale Applications
 - Robust self-healing application deployments
 - Resources & Pod Scheduling
@@ -55,6 +56,12 @@ Certified Kubernetes Administrator Notes
 - Application failure troubleshoot
 - Cluster component failure troubleshoot
 - Networking troubleshoot
+
+# Certifications Tips
+- Generate Manifest YAML file
+  ```
+    kubectl run --generator=run-pod/v1 [PDO_NAME] --image=[IMAGE_NAME] --dry-run -o yaml
+  ```
 
 # References
 Kubernetes. 2020. What Is Kubernetes?. [online] Available at: <https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/> [Accessed 26 October 2020].
