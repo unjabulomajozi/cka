@@ -1,11 +1,11 @@
 # Cluster Architecture Components
-![Cluster Architecture](../../img/Kubernetes-Architecture.png)
+![Cluster Architecture](https://github.com/unjabulomajozi/cka/blob/master/assets/img/Kubernetes-Architecture.png)
 SOURCE: http://thenewstack.io/wp-content/uploads/2016/11/Chart_02_Kubernetes-Architecture.png
 
 Kubernetes cluster gives us more than we bargain for, the question you may ask yourself is how does it offer so much. The answer lies in understanding the architecture. The cluster is simply made of 2 parts which are a Master & Worker node.
 
 # Master
-![Master Node](../../img/Kubernetes-Master.png)
+![Master Node](https://github.com/unjabulomajozi/cka/blob/master/assets/img/Kubernetes-Master.png)
 SOURCE: http://thenewstack.io/wp-content/uploads/2016/11/Chart_03_Kubernetes-Master.png
 
 Master node can be seen as the brain of the cluster since it controls and manages worker node(s)' workloads with the help of the following components:
@@ -114,7 +114,7 @@ Master node can be seen as the brain of the cluster since it controls and manage
       ```
 
 # Worker node
-![Worker node](../../img/Kubernetes-Node.png)
+![Worker node](https://github.com/unjabulomajozi/cka/blob/master/assets/img/Kubernetes-Node.png)
 SOURCE: http://thenewstack.io/wp-content/uploads/2016/11/Chart_04_Kubernetes-Node.png
 
 So Master schedules, records data, monitors changes and listen to commands but we haven't heard about how pods plays part, that's where Worker Node comes in. It provides a place for pods to operate. As you have noticed with Master Node, even Worker Node has components that make it possible for the worker node to complete it's duties which is to keep pods running. Those components are as follows:

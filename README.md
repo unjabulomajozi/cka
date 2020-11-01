@@ -22,7 +22,7 @@ Certified Kubernetes Administrator Notes
 
 ## Cluster Architecture
 - Cluster installation via Kubeadm
-  - [Components](https://github.com/unjabulomajozi/cka/blob/master/Cluster%20Architecture/Cluster%20Installation%20via%20Kubeadm/Components.md)
+  - [Components](https://github.com/unjabulomajozi/cka/blob/master/doc/Cluster%20Architecture/Cluster%20Installation%20via%20Kubeadm/Components.md)
   - Setup
 - Kubernetes Object
 - RBAC
@@ -31,10 +31,11 @@ Certified Kubernetes Administrator Notes
 - Cluster version upgrade via Kubeadm
 - etd backup & restore
 ## Workloads & Scheduling
-- [Deployment, update & rollbacks](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20&amp;%20Scheduling/Deployment,%20update%20&amp;%20rollbacks.md)
-- [Configure applications ConfigMaps & Secrets](https://github.com/unjabulomajozi/cka/blob/master/Workloads%20%26%20Scheduling/Configure%20applications%20ConfigMaps%20%26%20Secrets.md)
+- [Deployment, update & rollbacks](https://github.com/unjabulomajozi/cka/blob/master/doc/Workloads%20%26%20Scheduling/Deployment%2C%20update%20%26%20rollbacks.md)
+- [Configure applications ConfigMaps & Secrets](https://github.com/unjabulomajozi/cka/blob/master/doc/Workloads%20%26%20Scheduling/Configure%20applications%20ConfigMaps%20%26%20Secrets.md)
 - Scale Applications
 - Robust self-healing application deployments
+  - Liveness and Readiness Probes (not for CKA but CKAD)
 - Resources & Pod Scheduling
 - Manifest management & common templating tools
 ## Services & Networking
